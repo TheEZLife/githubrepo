@@ -13,6 +13,7 @@
 		27E6B1BA1D30102700681797 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E6B1B91D30102700681797 /* Images.xcassets */; };
 		27E6B1BD1D30102700681797 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E6B1BB1D30102700681797 /* LaunchScreen.xib */; };
 		27E6B1C91D30102700681797 /* lecture_66Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E6B1C81D30102700681797 /* lecture_66Tests.swift */; };
+		27E6B1D31D315C7100681797 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E6B1D21D315C7100681797 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		27E6B1C21D30102700681797 /* lecture 66Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lecture 66Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E6B1C71D30102700681797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27E6B1C81D30102700681797 /* lecture_66Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecture_66Tests.swift; sourceTree = "<group>"; };
+		27E6B1D21D315C7100681797 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E6B1D31D315C7100681797 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		27E6B1A41D30102700681797 = {
 			isa = PBXGroup;
 			children = (
+				27E6B1D21D315C7100681797 /* CoreLocation.framework */,
 				27E6B1AF1D30102700681797 /* lecture 66 */,
 				27E6B1C51D30102700681797 /* lecture 66Tests */,
 				27E6B1AE1D30102700681797 /* Products */,
@@ -409,6 +413,7 @@
 				27E6B1CE1D30102700681797 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27E6B1CF1D30102700681797 /* Build configuration list for PBXNativeTarget "lecture 66Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				27E6B1D11D30102700681797 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
