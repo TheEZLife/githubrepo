@@ -13,6 +13,7 @@
 		278125D71D21E574001B9F5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278125D61D21E574001B9F5A /* Images.xcassets */; };
 		278125DA1D21E574001B9F5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278125D81D21E574001B9F5A /* LaunchScreen.xib */; };
 		278125E61D21E574001B9F5A /* lecture_58Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278125E51D21E574001B9F5A /* lecture_58Tests.swift */; };
+		278125F01D21E5EA001B9F5A /* weather image example.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 278125EF1D21E5EA001B9F5A /* weather image example.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		278125DF1D21E574001B9F5A /* lecture 58Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lecture 58Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		278125E41D21E574001B9F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		278125E51D21E574001B9F5A /* lecture_58Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lecture_58Tests.swift; sourceTree = "<group>"; };
+		278125EF1D21E5EA001B9F5A /* weather image example.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "weather image example.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				278125CF1D21E573001B9F5A /* AppDelegate.swift */,
 				278125D11D21E573001B9F5A /* ViewController.swift */,
 				278125D31D21E574001B9F5A /* Main.storyboard */,
+				278125EF1D21E5EA001B9F5A /* weather image example.jpeg */,
 				278125D61D21E574001B9F5A /* Images.xcassets */,
 				278125D81D21E574001B9F5A /* LaunchScreen.xib */,
 				278125CD1D21E573001B9F5A /* Supporting Files */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				278125D51D21E574001B9F5A /* Main.storyboard in Resources */,
+				278125F01D21E5EA001B9F5A /* weather image example.jpeg in Resources */,
 				278125DA1D21E574001B9F5A /* LaunchScreen.xib in Resources */,
 				278125D71D21E574001B9F5A /* Images.xcassets in Resources */,
 			);
